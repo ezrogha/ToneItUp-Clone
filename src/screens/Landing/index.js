@@ -14,7 +14,6 @@ export default class Landing extends Component {
         })
     }
     render() {
-        console.log(slidesData)
         return (
             <View style={{ flex: 1 }}>
                 <Swiper

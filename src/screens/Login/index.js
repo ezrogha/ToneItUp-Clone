@@ -40,10 +40,10 @@ export default class Login extends Component {
                             />
                         </View>
                         <View style={styles.body}>
-                            <TouchableOpacity style={styles.signupButton} onPress={() => this.props.navigation.navigate('SignUp')}>
+                            <TouchableOpacity style={styles.signupButton} onPress={() => this.props.navigation.navigate('Home')}>
                                 <Text style={styles.buttonText}>Log in</Text>
                             </TouchableOpacity>
-                            <TouchableOpacity style={styles.facebookSignupButton} onPress={() => this.props.navigation.navigate('SignUp')}>
+                            <TouchableOpacity style={styles.facebookSignupButton}>
                                 <Text style={styles.facebookButtonText}>Login with Facebook</Text>
                             </TouchableOpacity>
                             <TouchableOpacity style={{ flexDirection: 'row', marginTop: 20 }} onPress={() => this.props.navigation.navigate('ForgotPassword')}>
